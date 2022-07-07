@@ -53,7 +53,7 @@ class _SideNavigationBarItemWidgetState
     /// Return a basic list-tile for now
     return Tooltip(
       waitDuration: const Duration(seconds: 1),
-      message: widget.itemData.label,
+      message: '',
       child: widget.expanded
           ? ListTile(
               leading: Icon(
